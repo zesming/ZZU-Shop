@@ -1,0 +1,105 @@
+
+/* Class = "IBUITextField"; placeholder = "请输入密码"; ObjectID = "0ea-e3-xxA"; */
+"0ea-e3-xxA.placeholder" = "请输入密码";
+
+/* Class = "IBUILabel"; text = "密 码"; ObjectID = "0oj-Z5-Dgr"; */
+"0oj-Z5-Dgr.text" = "密 码";
+
+/* Class = "IBUITabBarItem"; title = "首页"; ObjectID = "3pF-kB-JX9"; */
+"3pF-kB-JX9.title" = "首页";
+
+/* Class = "IBUINavigationItem"; title = "郑大商城"; ObjectID = "5CT-hv-0cl"; */
+"5CT-hv-0cl.title" = "郑大商城";
+
+/* Class = "IBUIButton"; normalTitle = "登录"; ObjectID = "5WX-au-HF0"; */
+"5WX-au-HF0.normalTitle" = "登录";
+
+/* Class = "IBUITabBarItem"; title = "搜索"; ObjectID = "5hP-lE-7M4"; */
+"5hP-lE-7M4.title" = "搜索";
+
+/* Class = "IBUINavigationItem"; title = "我的账户"; ObjectID = "6Qa-So-Q6x"; */
+"6Qa-So-Q6x.title" = "我的账户";
+
+/* Class = "IBUINavigationItem"; title = "购物车"; ObjectID = "9NK-Ad-tDN"; */
+"9NK-Ad-tDN.title" = "购物车";
+
+/* Class = "IBUILabel"; text = "猜你喜欢"; ObjectID = "B9q-Qd-xxM"; */
+"B9q-Qd-xxM.text" = "猜你喜欢";
+
+/* Class = "IBUILabel"; text = "手机号码"; ObjectID = "EmI-es-oqO"; */
+"EmI-es-oqO.text" = "手机号码";
+
+/* Class = "IBUITabBarItem"; title = "购物车"; ObjectID = "JF7-Vv-awA"; */
+"JF7-Vv-awA.title" = "购物车";
+
+/* Class = "IBUIButton"; normalTitle = "马上登录"; ObjectID = "LLM-bA-2R6"; */
+"LLM-bA-2R6.normalTitle" = "马上登录";
+
+/* Class = "IBUILabel"; text = "邮箱"; ObjectID = "Lau-vU-V3n"; */
+"Lau-vU-V3n.text" = "邮箱";
+
+/* Class = "IBUITextField"; placeholder = "请输入学号"; ObjectID = "Mre-Vu-eb4"; */
+"Mre-Vu-eb4.placeholder" = "请输入学号";
+
+/* Class = "IBUILabel"; text = "全部订单"; ObjectID = "NIg-nV-U4E"; */
+"NIg-nV-U4E.text" = "全部订单";
+
+/* Class = "IBUILabel"; text = "热门商品"; ObjectID = "QLU-JL-0ku"; */
+"QLU-JL-0ku.text" = "热门商品";
+
+/* Class = "IBUILabel"; text = "学 号"; ObjectID = "UdQ-5A-6sN"; */
+"UdQ-5A-6sN.text" = "学 号";
+
+/* Class = "IBUINavigationItem"; title = "我的商城"; ObjectID = "UjG-91-oEM"; */
+"UjG-91-oEM.title" = "我的商城";
+
+/* Class = "IBUIButton"; normalTitle = "立即注册"; ObjectID = "VXD-4T-mLl"; */
+"VXD-4T-mLl.normalTitle" = "立即注册";
+
+/* Class = "IBUILabel"; text = "您还没有登录哦~"; ObjectID = "W21-8f-fhs"; */
+"W21-8f-fhs.text" = "您还没有登录哦~";
+
+/* Class = "IBUILabel"; text = "待发货"; ObjectID = "Wk1-kK-T6P"; */
+"Wk1-kK-T6P.text" = "待发货";
+
+/* Class = "IBUILabel"; text = "个性推荐"; ObjectID = "YVD-2u-9SL"; */
+"YVD-2u-9SL.text" = "个性推荐";
+
+/* Class = "IBUILabel"; text = "您的购物车没有商品"; ObjectID = "Ymd-RS-KOs"; */
+"Ymd-RS-KOs.text" = "您的购物车没有商品";
+
+/* Class = "IBUILabel"; text = "修改"; ObjectID = "alU-WR-dJ0"; */
+"alU-WR-dJ0.text" = "修改";
+
+/* Class = "IBUILabel"; text = "待收货"; ObjectID = "cRs-U6-iRZ"; */
+"cRs-U6-iRZ.text" = "待收货";
+
+/* Class = "IBUILabel"; text = "昵称"; ObjectID = "cgi-SB-2Mi"; */
+"cgi-SB-2Mi.text" = "昵称";
+
+/* Class = "IBUITabBarItem"; title = "我的商城"; ObjectID = "l6b-qm-1t0"; */
+"l6b-qm-1t0.title" = "我的商城";
+
+/* Class = "IBUINavigationItem"; title = "搜索"; ObjectID = "tme-3f-soJ"; */
+"tme-3f-soJ.title" = "搜索";
+
+/* Class = "IBUIButton"; normalTitle = "退出当前账户"; ObjectID = "uIl-4B-xhh"; */
+"uIl-4B-xhh.normalTitle" = "退出当前账户";
+
+/* Class = "IBUILabel"; text = "学号"; ObjectID = "v8v-ju-Kc5"; */
+"v8v-ju-Kc5.text" = "学号";
+
+/* Class = "IBUILabel"; text = "用户昵称"; ObjectID = "xLq-QR-CmR"; */
+"xLq-QR-CmR.text" = "用户昵称";
+
+/* Class = "IBUILabel"; text = "更换"; ObjectID = "xvl-49-W73"; */
+"xvl-49-W73.text" = "更换";
+
+/* Class = "IBUISearchBar"; placeholder = "搜索商城"; ObjectID = "yFF-kY-pFm"; */
+"yFF-kY-pFm.placeholder" = "搜索商城";
+
+/* Class = "IBUILabel"; text = "账户密码修改"; ObjectID = "ySq-Z2-GBh"; */
+"ySq-Z2-GBh.text" = "账户密码修改";
+
+/* Class = "IBUILabel"; text = "待评价"; ObjectID = "z5a-bZ-Ld6"; */
+"z5a-bZ-Ld6.text" = "待评价";

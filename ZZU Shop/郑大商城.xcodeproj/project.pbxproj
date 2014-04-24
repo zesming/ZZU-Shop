@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1B624019022E01004B364F /* myShop_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B623F19022E01004B364F /* myShop_bg@2x.png */; };
+		3A1B6242190236E1004B364F /* indexSearchButton_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */; };
+		3A6103AA190222C00091D27A /* noShopingCart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6103A9190222C00091D27A /* noShopingCart@2x.png */; };
+		3ADF0413190228A700E44D0E /* loginContainView_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */; };
+		FE106C2F1908B79200F67E07 /* BIDMyAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */; };
+		FE303CE51900FE4900600D38 /* index@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CE41900FE4900600D38 /* index@2x.png */; };
+		FE303CE71900FFC700600D38 /* myShop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CE61900FFC700600D38 /* myShop@2x.png */; };
+		FE303CE91900FFCE00600D38 /* shopCart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CE81900FFCE00600D38 /* shopCart@2x.png */; };
+		FE303CEB190103A100600D38 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CEA190103A100600D38 /* search@2x.png */; };
+		FE303CEE190119FB00600D38 /* BIDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE303CED190119FB00600D38 /* BIDLoginViewController.m */; };
+		FE303CF019012A2100600D38 /* login_bt_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CEF19012A2100600D38 /* login_bt_bg@2x.png */; };
+		FE303CF219012B4A00600D38 /* login_bt_bg_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CF119012B4A00600D38 /* login_bt_bg_highlight@2x.png */; };
+		FE7633F118FFC1DC00700063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7633F018FFC1DC00700063 /* Foundation.framework */; };
+		FE7633F318FFC1DC00700063 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7633F218FFC1DC00700063 /* CoreGraphics.framework */; };
+		FE7633F518FFC1DC00700063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7633F418FFC1DC00700063 /* UIKit.framework */; };
+		FE7633FB18FFC1DC00700063 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE7633F918FFC1DC00700063 /* InfoPlist.strings */; };
+		FE7633FD18FFC1DC00700063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7633FC18FFC1DC00700063 /* main.m */; };
+		FE76340118FFC1DC00700063 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76340018FFC1DC00700063 /* BIDAppDelegate.m */; };
+		FE76340418FFC1DC00700063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE76340218FFC1DC00700063 /* Main.storyboard */; };
+		FE76340718FFC1DC00700063 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76340618FFC1DC00700063 /* BIDViewController.m */; };
+		FE76340918FFC1DC00700063 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE76340818FFC1DC00700063 /* Images.xcassets */; };
+		FE76342718FFC64900700063 /* BIDIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76342618FFC64900700063 /* BIDIndexViewController.m */; };
+		FE76342C18FFC85700700063 /* BIDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76342B18FFC85700700063 /* BIDSearchViewController.m */; };
+		FE76343018FFCACB00700063 /* BIDShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76342F18FFCACB00700063 /* BIDShoppingCartViewController.m */; };
+		FE81297D1900D8E900D2A08D /* contain_bg_200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE81297C1900D8E900D2A08D /* contain_bg_200@2x.png */; };
+		FEAB2CBC1909065600200763 /* BIDCheckIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB2CBB1909065600200763 /* BIDCheckIDViewController.m */; };
+		FEAB2CBF1909080400200763 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB2CBE1909080400200763 /* MBProgressHUD.m */; };
+		FEB395311906455100303855 /* BIDRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB395301906455100303855 /* BIDRegisterViewController.m */; };
+		FEB3953C190656F200303855 /* BIDUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3953B190656F200303855 /* BIDUsers.m */; };
+		FEE93AF519079F100064E837 /* BIDMyShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE93AF419079F100064E837 /* BIDMyShopTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1B623F19022E01004B364F /* myShop_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myShop_bg@2x.png"; sourceTree = "<group>"; };
+		3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indexSearchButton_bg@2x.png"; sourceTree = "<group>"; };
+		3A6103A9190222C00091D27A /* noShopingCart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noShopingCart@2x.png"; sourceTree = "<group>"; };
+		3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginContainView_bg@2x.png"; sourceTree = "<group>"; };
+		FE106C2D1908B79200F67E07 /* BIDMyAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDMyAccountTableViewController.h; path = "ZZU Shop/BIDMyAccountTableViewController.h"; sourceTree = "<group>"; };
+		FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMyAccountTableViewController.m; path = "ZZU Shop/BIDMyAccountTableViewController.m"; sourceTree = "<group>"; };
+		FE303CE41900FE4900600D38 /* index@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index@2x.png"; sourceTree = "<group>"; };
+		FE303CE61900FFC700600D38 /* myShop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myShop@2x.png"; sourceTree = "<group>"; };
+		FE303CE81900FFCE00600D38 /* shopCart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopCart@2x.png"; sourceTree = "<group>"; };
+		FE303CEA190103A100600D38 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		FE303CEC190119FB00600D38 /* BIDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDLoginViewController.h; sourceTree = "<group>"; };
+		FE303CED190119FB00600D38 /* BIDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDLoginViewController.m; sourceTree = "<group>"; };
+		FE303CEF19012A2100600D38 /* login_bt_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_bt_bg@2x.png"; sourceTree = "<group>"; };
+		FE303CF119012B4A00600D38 /* login_bt_bg_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_bt_bg_highlight@2x.png"; sourceTree = "<group>"; };
+		FE7633ED18FFC1DC00700063 /* 郑大商城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "郑大商城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7633F018FFC1DC00700063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE7633F218FFC1DC00700063 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE7633F418FFC1DC00700063 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE7633F818FFC1DC00700063 /* 郑大商城-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "郑大商城-Info.plist"; sourceTree = "<group>"; };
+		FE7633FA18FFC1DC00700063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE7633FC18FFC1DC00700063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE7633FE18FFC1DC00700063 /* 郑大商城-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "郑大商城-Prefix.pch"; sourceTree = "<group>"; };
+		FE7633FF18FFC1DC00700063 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		FE76340018FFC1DC00700063 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		FE76340318FFC1DC00700063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE76340518FFC1DC00700063 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		FE76340618FFC1DC00700063 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		FE76340818FFC1DC00700063 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ZZU Shop/Images.xcassets"; sourceTree = "<group>"; };
+		FE76340F18FFC1DC00700063 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FE76342518FFC64900700063 /* BIDIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDIndexViewController.h; sourceTree = "<group>"; };
+		FE76342618FFC64900700063 /* BIDIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDIndexViewController.m; sourceTree = "<group>"; };
+		FE76342A18FFC85700700063 /* BIDSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSearchViewController.h; sourceTree = "<group>"; };
+		FE76342B18FFC85700700063 /* BIDSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSearchViewController.m; sourceTree = "<group>"; };
+		FE76342E18FFCACB00700063 /* BIDShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDShoppingCartViewController.h; sourceTree = "<group>"; };
+		FE76342F18FFCACB00700063 /* BIDShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDShoppingCartViewController.m; sourceTree = "<group>"; };
+		FE81297C1900D8E900D2A08D /* contain_bg_200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contain_bg_200@2x.png"; sourceTree = "<group>"; };
+		FEAB2CB81909055200200763 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FEAB2CB91909055200200763 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		FEAB2CBA1909065600200763 /* BIDCheckIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckIDViewController.h; sourceTree = "<group>"; };
+		FEAB2CBB1909065600200763 /* BIDCheckIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckIDViewController.m; sourceTree = "<group>"; };
+		FEAB2CBD1909080400200763 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FEAB2CBE1909080400200763 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FEB3952F1906455100303855 /* BIDRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDRegisterViewController.h; path = "ZZU Shop/BIDRegisterViewController.h"; sourceTree = "<group>"; };
+		FEB395301906455100303855 /* BIDRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDRegisterViewController.m; path = "ZZU Shop/BIDRegisterViewController.m"; sourceTree = "<group>"; };
+		FEB3953219064A0400303855 /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
+		FEB3953A190656F200303855 /* BIDUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDUsers.h; sourceTree = "<group>"; };
+		FEB3953B190656F200303855 /* BIDUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDUsers.m; sourceTree = "<group>"; };
+		FEE93AF319079F100064E837 /* BIDMyShopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDMyShopTableViewController.h; path = "ZZU Shop/BIDMyShopTableViewController.h"; sourceTree = "<group>"; };
+		FEE93AF419079F100064E837 /* BIDMyShopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMyShopTableViewController.m; path = "ZZU Shop/BIDMyShopTableViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7633EA18FFC1DC00700063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7633F318FFC1DC00700063 /* CoreGraphics.framework in Frameworks */,
+				FE7633F518FFC1DC00700063 /* UIKit.framework in Frameworks */,
+				FE7633F118FFC1DC00700063 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7633E418FFC1DC00700063 = {
+			isa = PBXGroup;
+			children = (
+				FE7633F618FFC1DC00700063 /* ZZU Shop */,
+				FE76340818FFC1DC00700063 /* Images.xcassets */,
+				FE7633F718FFC1DC00700063 /* Supporting Files */,
+				FE7633EF18FFC1DC00700063 /* Frameworks */,
+				FE7633EE18FFC1DC00700063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7633EE18FFC1DC00700063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7633ED18FFC1DC00700063 /* 郑大商城.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7633EF18FFC1DC00700063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE7633F018FFC1DC00700063 /* Foundation.framework */,
+				FE7633F218FFC1DC00700063 /* CoreGraphics.framework */,
+				FE7633F418FFC1DC00700063 /* UIKit.framework */,
+				FE76340F18FFC1DC00700063 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE7633F618FFC1DC00700063 /* ZZU Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB2CC01909080900200763 /* ProgressHUD */,
+				FEB3953219064A0400303855 /* general.h */,
+				FE7633FF18FFC1DC00700063 /* BIDAppDelegate.h */,
+				FE76340018FFC1DC00700063 /* BIDAppDelegate.m */,
+				FE76340218FFC1DC00700063 /* Main.storyboard */,
+				FE76340518FFC1DC00700063 /* BIDViewController.h */,
+				FE76340618FFC1DC00700063 /* BIDViewController.m */,
+				FE76342818FFC64E00700063 /* 首页 */,
+				FE76342D18FFC85B00700063 /* 搜索 */,
+				FE76343118FFCAF200700063 /* 购物车 */,
+				FE76343518FFCB1D00700063 /* 我的商城 */,
+				FEB3953D190656FB00303855 /* Model */,
+			);
+			path = "ZZU Shop";
+			sourceTree = "<group>";
+		};
+		FE7633F718FFC1DC00700063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */,
+				3A1B623F19022E01004B364F /* myShop_bg@2x.png */,
+				3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */,
+				3A6103A9190222C00091D27A /* noShopingCart@2x.png */,
+				FE303CEA190103A100600D38 /* search@2x.png */,
+				FE303CE81900FFCE00600D38 /* shopCart@2x.png */,
+				FE303CE61900FFC700600D38 /* myShop@2x.png */,
+				FE303CF119012B4A00600D38 /* login_bt_bg_highlight@2x.png */,
+				FE303CEF19012A2100600D38 /* login_bt_bg@2x.png */,
+				FE303CE41900FE4900600D38 /* index@2x.png */,
+				FE81297C1900D8E900D2A08D /* contain_bg_200@2x.png */,
+				FE7633F818FFC1DC00700063 /* 郑大商城-Info.plist */,
+				FE7633F918FFC1DC00700063 /* InfoPlist.strings */,
+				FE7633FC18FFC1DC00700063 /* main.m */,
+				FE7633FE18FFC1DC00700063 /* 郑大商城-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "ZZU Shop";
+			sourceTree = "<group>";
+		};
+		FE76342818FFC64E00700063 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				FE76342518FFC64900700063 /* BIDIndexViewController.h */,
+				FE76342618FFC64900700063 /* BIDIndexViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		FE76342D18FFC85B00700063 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				FE76342A18FFC85700700063 /* BIDSearchViewController.h */,
+				FE76342B18FFC85700700063 /* BIDSearchViewController.m */,
+			);
+			name = "搜索";
+			sourceTree = "<group>";
+		};
+		FE76343118FFCAF200700063 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				FE76342E18FFCACB00700063 /* BIDShoppingCartViewController.h */,
+				FE76342F18FFCACB00700063 /* BIDShoppingCartViewController.m */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
+		FE76343518FFCB1D00700063 /* 我的商城 */ = {
+			isa = PBXGroup;
+			children = (
+				FEE93AF319079F100064E837 /* BIDMyShopTableViewController.h */,
+				FEE93AF419079F100064E837 /* BIDMyShopTableViewController.m */,
+				FE303CEC190119FB00600D38 /* BIDLoginViewController.h */,
+				FE303CED190119FB00600D38 /* BIDLoginViewController.m */,
+				FEAB2CBA1909065600200763 /* BIDCheckIDViewController.h */,
+				FEAB2CBB1909065600200763 /* BIDCheckIDViewController.m */,
+				FEB3952F1906455100303855 /* BIDRegisterViewController.h */,
+				FEB395301906455100303855 /* BIDRegisterViewController.m */,
+				FE106C2D1908B79200F67E07 /* BIDMyAccountTableViewController.h */,
+				FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */,
+			);
+			name = "我的商城";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FEAB2CC01909080900200763 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB2CBD1909080400200763 /* MBProgressHUD.h */,
+				FEAB2CBE1909080400200763 /* MBProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FEB3953D190656FB00303855 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEB3953A190656F200303855 /* BIDUsers.h */,
+				FEB3953B190656F200303855 /* BIDUsers.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7633EC18FFC1DC00700063 /* 郑大商城 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE76341F18FFC1DC00700063 /* Build configuration list for PBXNativeTarget "郑大商城" */;
+			buildPhases = (
+				FE7633E918FFC1DC00700063 /* Sources */,
+				FE7633EA18FFC1DC00700063 /* Frameworks */,
+				FE7633EB18FFC1DC00700063 /* Resources */,
+				FE76342918FFC69600700063 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "郑大商城";
+			productName = "ZZU Shop";
+			productReference = FE7633ED18FFC1DC00700063 /* 郑大商城.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7633E518FFC1DC00700063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ming;
+			};
+			buildConfigurationList = FE7633E818FFC1DC00700063 /* Build configuration list for PBXProject "郑大商城" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FE7633E418FFC1DC00700063;
+			productRefGroup = FE7633EE18FFC1DC00700063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7633EC18FFC1DC00700063 /* 郑大商城 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7633EB18FFC1DC00700063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6103AA190222C00091D27A /* noShopingCart@2x.png in Resources */,
+				FE76340918FFC1DC00700063 /* Images.xcassets in Resources */,
+				FE7633FB18FFC1DC00700063 /* InfoPlist.strings in Resources */,
+				FE303CE91900FFCE00600D38 /* shopCart@2x.png in Resources */,
+				3A1B6242190236E1004B364F /* indexSearchButton_bg@2x.png in Resources */,
+				FE303CF219012B4A00600D38 /* login_bt_bg_highlight@2x.png in Resources */,
+				FE303CEB190103A100600D38 /* search@2x.png in Resources */,
+				3A1B624019022E01004B364F /* myShop_bg@2x.png in Resources */,
+				FE76340418FFC1DC00700063 /* Main.storyboard in Resources */,
+				FE303CE71900FFC700600D38 /* myShop@2x.png in Resources */,
+				FE303CF019012A2100600D38 /* login_bt_bg@2x.png in Resources */,
+				3ADF0413190228A700E44D0E /* loginContainView_bg@2x.png in Resources */,
+				FE303CE51900FE4900600D38 /* index@2x.png in Resources */,
+				FE81297D1900D8E900D2A08D /* contain_bg_200@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE76342918FFC69600700063 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" ==\"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\"]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py\"my.company.${PROJECT_NAME}\"\"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\"--entitlements\"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\"\"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7633E918FFC1DC00700063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE93AF519079F100064E837 /* BIDMyShopTableViewController.m in Sources */,
+				FE76343018FFCACB00700063 /* BIDShoppingCartViewController.m in Sources */,
+				FEAB2CBC1909065600200763 /* BIDCheckIDViewController.m in Sources */,
+				FE303CEE190119FB00600D38 /* BIDLoginViewController.m in Sources */,
+				FE76342C18FFC85700700063 /* BIDSearchViewController.m in Sources */,
+				FEB395311906455100303855 /* BIDRegisterViewController.m in Sources */,
+				FE76340118FFC1DC00700063 /* BIDAppDelegate.m in Sources */,
+				FE76342718FFC64900700063 /* BIDIndexViewController.m in Sources */,
+				FE76340718FFC1DC00700063 /* BIDViewController.m in Sources */,
+				FEAB2CBF1909080400200763 /* MBProgressHUD.m in Sources */,
+				FE106C2F1908B79200F67E07 /* BIDMyAccountTableViewController.m in Sources */,
+				FEB3953C190656F200303855 /* BIDUsers.m in Sources */,
+				FE7633FD18FFC1DC00700063 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE7633F918FFC1DC00700063 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7633FA18FFC1DC00700063 /* en */,
+				FEAB2CB91909055200200763 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE76340218FFC1DC00700063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE76340318FFC1DC00700063 /* Base */,
+				FEAB2CB81909055200200763 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE76341D18FFC1DC00700063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE76341E18FFC1DC00700063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE76342018FFC1DC00700063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZZU Shop/郑大商城-Prefix.pch";
+				INFOPLIST_FILE = "ZZU Shop/郑大商城-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "郑大商城";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE76342118FFC1DC00700063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZZU Shop/郑大商城-Prefix.pch";
+				INFOPLIST_FILE = "ZZU Shop/郑大商城-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "郑大商城";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7633E818FFC1DC00700063 /* Build configuration list for PBXProject "郑大商城" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE76341D18FFC1DC00700063 /* Debug */,
+				FE76341E18FFC1DC00700063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE76341F18FFC1DC00700063 /* Build configuration list for PBXNativeTarget "郑大商城" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE76342018FFC1DC00700063 /* Debug */,
+				FE76342118FFC1DC00700063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7633E518FFC1DC00700063 /* Project object */;
+}
