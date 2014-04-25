@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#define ISPHONE
+//define ISPHONE
 
-#define IP @"192.168.0.1"
+#define IP @"10.0.1.56"
 
 #ifdef ISPHONE
     #define filePath NSTemporaryDirectory()
 #else
-    #define filePath @"/Users/Ming/Desktop/"
+    #define filePath @"/Users/zhao/Desktop/"
 #endif
