@@ -33,7 +33,6 @@
     [self setContainView];
     [self loginWhenStart];
     
-   
 }
 
 - (void)setUIColor
@@ -51,6 +50,9 @@
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     //设置标签栏选中颜色
     self.tabBarController.tabBar.tintColor = lightGreenColor;
+    
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
 }
 
 - (void)setContainView

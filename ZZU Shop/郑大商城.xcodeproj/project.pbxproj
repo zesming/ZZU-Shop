@@ -10,6 +10,7 @@
 		3A1B624019022E01004B364F /* myShop_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B623F19022E01004B364F /* myShop_bg@2x.png */; };
 		3A1B6242190236E1004B364F /* indexSearchButton_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */; };
 		3A6103AA190222C00091D27A /* noShopingCart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6103A9190222C00091D27A /* noShopingCart@2x.png */; };
+		3AC138E9190B5FFA001869D1 /* BIDGetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC138E8190B5FFA001869D1 /* BIDGetPasswordViewController.m */; };
 		3ADF0413190228A700E44D0E /* loginContainView_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */; };
 		FE106C2F1908B79200F67E07 /* BIDMyAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */; };
 		FE303CE51900FE4900600D38 /* index@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CE41900FE4900600D38 /* index@2x.png */; };
@@ -43,6 +44,8 @@
 		3A1B623F19022E01004B364F /* myShop_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myShop_bg@2x.png"; sourceTree = "<group>"; };
 		3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indexSearchButton_bg@2x.png"; sourceTree = "<group>"; };
 		3A6103A9190222C00091D27A /* noShopingCart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noShopingCart@2x.png"; sourceTree = "<group>"; };
+		3AC138E7190B5FFA001869D1 /* BIDGetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDGetPasswordViewController.h; path = "ZZU Shop/BIDGetPasswordViewController.h"; sourceTree = "<group>"; };
+		3AC138E8190B5FFA001869D1 /* BIDGetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDGetPasswordViewController.m; path = "ZZU Shop/BIDGetPasswordViewController.m"; sourceTree = "<group>"; };
 		3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginContainView_bg@2x.png"; sourceTree = "<group>"; };
 		FE106C2D1908B79200F67E07 /* BIDMyAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDMyAccountTableViewController.h; path = "ZZU Shop/BIDMyAccountTableViewController.h"; sourceTree = "<group>"; };
 		FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMyAccountTableViewController.m; path = "ZZU Shop/BIDMyAccountTableViewController.m"; sourceTree = "<group>"; };
@@ -217,6 +220,8 @@
 				FEB395301906455100303855 /* BIDRegisterViewController.m */,
 				FE106C2D1908B79200F67E07 /* BIDMyAccountTableViewController.h */,
 				FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */,
+				3AC138E7190B5FFA001869D1 /* BIDGetPasswordViewController.h */,
+				3AC138E8190B5FFA001869D1 /* BIDGetPasswordViewController.m */,
 			);
 			name = "我的商城";
 			path = ..;
@@ -338,6 +343,7 @@
 			files = (
 				FEE93AF519079F100064E837 /* BIDMyShopTableViewController.m in Sources */,
 				FE76343018FFCACB00700063 /* BIDShoppingCartViewController.m in Sources */,
+				3AC138E9190B5FFA001869D1 /* BIDGetPasswordViewController.m in Sources */,
 				FEAB2CBC1909065600200763 /* BIDCheckIDViewController.m in Sources */,
 				FE303CEE190119FB00600D38 /* BIDLoginViewController.m in Sources */,
 				FE76342C18FFC85700700063 /* BIDSearchViewController.m in Sources */,

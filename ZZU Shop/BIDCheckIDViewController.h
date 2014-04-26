@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
-@interface BIDCheckIDViewController : UIViewController
+@interface BIDCheckIDViewController : UIViewController{
+    MBProgressHUD *hud;
+    NSInteger checkCode;
+}
+@property (weak, nonatomic) IBOutlet UITextField *studentID;
+@property (weak, nonatomic) IBOutlet UITextField *realName;
+@property (weak, nonatomic) IBOutlet UIButton *checkButton;
+@property (weak, nonatomic) IBOutlet UIButton *nextStep;
 
+
+- (IBAction)checkInfo:(id)sender;
+
+- (IBAction)hideKeyboard:(id)sender;
 @end

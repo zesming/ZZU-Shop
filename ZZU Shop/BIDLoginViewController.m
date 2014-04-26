@@ -40,6 +40,9 @@
     hud.labelText = @"正在登录，请稍等...";
     
     [self.view addSubview:hud];
+    
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
 
 }
 
