@@ -69,6 +69,9 @@
 }
 
 - (IBAction)login:(id)sender {
+    [self.userNameTextField resignFirstResponder];
+    [self.passwdTextFiled resignFirstResponder];
+    
     if (self.userNameTextField.text.length > 0 && self.passwdTextFiled.text.length > 0) {
         BIDUsers *userLogin = [BIDUsers new];
         userLogin.userName = self.userNameTextField.text;
@@ -101,16 +104,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

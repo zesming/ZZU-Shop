@@ -66,7 +66,6 @@
 {
     BIDUsers *userInfo = [[BIDUsers alloc] init];
     if (userInfo.userName || userInfo.password) {
-        
         dispatch_async(dispatch_get_global_queue(0, 0), ^{
             [userInfo loginRequest];
             dispatch_async(dispatch_get_main_queue(), ^{

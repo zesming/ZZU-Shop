@@ -73,6 +73,7 @@
 }
 
 - (IBAction)getPassword:(id)sender {
+    [self hideKeyboard];
     if (self.segmentValue.selectedSegmentIndex == 0) {
         /* 安全问题找回 */
         if (self.questionStudentIDTextField.text.length > 0 && questionID >0 && self.answerTextField.text.length >0) {

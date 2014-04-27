@@ -23,6 +23,7 @@
             self.nickName = userInfo[@"nickName"];
             self.email = userInfo[@"email"];
             self.phoneNumber = userInfo[@"phoneNumber"];
+            self.secretKey = userInfo[@"secretKey"];
             
         }
         return self;
@@ -163,6 +164,94 @@
     //使用带有参数的url向服务器发出请求
     NSURLRequest *getPassword_ERequest = [NSURLRequest requestWithURL:[NSURL URLWithString:getPassword_EURL]];
     self.userData = [NSURLConnection sendSynchronousRequest:getPassword_ERequest returningResponse:nil error:&error];
+    self.requestError = error;
+    app.networkActivityIndicatorVisible = NO;
+}
+
+- (void)changePassword
+{
+    NSError *error;
+    //创建网络读取指示器
+    UIApplication *app = [UIApplication sharedApplication];
+    //在进行网络读取的时候开启指示
+    app.networkActivityIndicatorVisible = YES;
+    //创建请求API的地址
+    NSString *changePasswordIP = IP;
+    NSString *changePasswordAPIURL = @":8080/zzuShop/interfaceJson/jsonUpdatePasswordAction_updatePassword.action?";
+    //创建含参数的url请求
+    NSString *changePasswordURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&newPassword=%@&oldPassword=%@", changePasswordIP, changePasswordAPIURL, self.userName, self.theNewPassword, self.password];
+    //将带有汉字的url转码成utf－8编码
+    changePasswordURL = [changePasswordURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    //使用带有参数的url向服务器发出请求
+    NSURLRequest *changePasswordRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:changePasswordURL]];
+    self.userData = [NSURLConnection sendSynchronousRequest:changePasswordRequest returningResponse:nil error:&error];
+    self.requestError = error;
+    app.networkActivityIndicatorVisible = NO;
+}
+
+- (void)changeNickName
+{
+    NSError *error;
+    //创建网络读取指示器
+    UIApplication *app = [UIApplication sharedApplication];
+    //在进行网络读取的时候开启指示
+    app.networkActivityIndicatorVisible = YES;
+    //创建请求API的地址
+    NSString *changeNickNameIP = IP;
+    NSString *changeNickNameAPIURL = @":8080/zzuShop/interfaceJson/jsonUpdateNickNameAction_updateNickName.action?";
+    //创建含参数的url请求
+    NSString *changeNickNameURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&secretKey=%@&nickName=%@", changeNickNameIP, changeNickNameAPIURL, self.userName, self.secretKey, self.nickName];
+    //将带有汉字的url转码成utf－8编码
+    changeNickNameURL = [changeNickNameURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    //使用带有参数的url向服务器发出请求
+    NSURLRequest *changeNickNameRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:changeNickNameURL]];
+    self.userData = [NSURLConnection sendSynchronousRequest:changeNickNameRequest returningResponse:nil error:&error];
+    self.requestError = error;
+    app.networkActivityIndicatorVisible = NO;
+}
+
+- (void)changePhoneNumber
+{
+    NSError *error;
+    //创建网络读取指示器
+    UIApplication *app = [UIApplication sharedApplication];
+    //在进行网络读取的时候开启指示
+    app.networkActivityIndicatorVisible = YES;
+    //创建请求API的地址
+    NSString *changePhoneNumberIP = IP;
+    NSString *changePhoneNumberAPIURL = @":8080/zzuShop/interfaceJson/jsonUpdatePhoneNumberAction_updatePhoneNumber.action?";
+    //创建含参数的url请求
+    NSString *changePhoneNumberURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&secretKey=%@&phoneNumber=%@", changePhoneNumberIP, changePhoneNumberAPIURL, self.userName, self.secretKey, self.phoneNumber];
+    //将带有汉字的url转码成utf－8编码
+    changePhoneNumberURL = [changePhoneNumberURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    //使用带有参数的url向服务器发出请求
+    NSURLRequest *changePhoneNumberRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:changePhoneNumberURL]];
+    self.userData = [NSURLConnection sendSynchronousRequest:changePhoneNumberRequest returningResponse:nil error:&error];
+    self.requestError = error;
+    app.networkActivityIndicatorVisible = NO;
+}
+
+- (void)changeEmail
+{
+    NSError *error;
+    //创建网络读取指示器
+    UIApplication *app = [UIApplication sharedApplication];
+    //在进行网络读取的时候开启指示
+    app.networkActivityIndicatorVisible = YES;
+    //创建请求API的地址
+    NSString *changeEmailIP = IP;
+    NSString *changeEmailAPIURL = @":8080/zzuShop/interfaceJson/jsonUpdateEmailAction_updateEmail.action?";
+    //创建含参数的url请求
+    NSString *changeEmailURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&secretKey=%@&email=%@", changeEmailIP, changeEmailAPIURL, self.userName, self.secretKey, self.email];
+    //将带有汉字的url转码成utf－8编码
+    changeEmailURL = [changeEmailURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    //使用带有参数的url向服务器发出请求
+    NSURLRequest *changeEmailRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:changeEmailURL]];
+    self.userData = [NSURLConnection sendSynchronousRequest:changeEmailRequest returningResponse:nil error:&error];
     self.requestError = error;
     app.networkActivityIndicatorVisible = NO;
 }

@@ -11,7 +11,7 @@
 @interface BIDUsers : NSObject
 
 
-@property (strong, nonatomic) NSString *userName, *password, *nickName ,*email, *phoneNumber, *answer, *realName;
+@property (strong, nonatomic) NSString *userName, *password, *nickName ,*email, *phoneNumber, *answer, *realName, *theNewPassword, *secretKey;
 @property (strong, nonatomic) NSData *userData;
 @property (strong, nonatomic) NSError *requestError;
 @property (assign, nonatomic) NSInteger q_id;
@@ -24,5 +24,9 @@
 - (void)registerNewUser;
 - (void)getPasswordBackByQuestion;
 - (void)getPasswordBackByEmail;
+- (void)changePassword;
+- (void)changeNickName;
+- (void)changePhoneNumber;
+- (void)changeEmail;
 
 @end
