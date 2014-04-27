@@ -1,12 +1,17 @@
 ZZU-Shop
 ========
-Add Update user info mode
+A Client for ZZU Shop
+
 0.4
 ========
-Add Get password back mode
+Add Update user info mode
+
 0.3
 ========
-Add User register mode
+Add Get password back mode
+
 0.2
 ========
-A Client for ZZU Shop
+Add User register mode
+
+
