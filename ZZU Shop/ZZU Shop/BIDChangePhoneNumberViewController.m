@@ -38,6 +38,12 @@
     [self.view addSubview:hud];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    BIDUsers *userPhoneNumber = [BIDUsers new];
+    self.currentPhoneNumberLabel.text = userPhoneNumber.phoneNumber;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -67,12 +73,12 @@
                     [[[UIAlertView alloc] initWithTitle:@"警告" message:resultDic[@"reason"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
                 }
             }else{
-                [[[UIAlertView alloc] initWithTitle:@"成功" message:userChangePhoneNumber.requestError.localizedDescription delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+                [[[UIAlertView alloc] initWithTitle:@"提示" message:userChangePhoneNumber.requestError.localizedDescription delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
             }
         }];
         
     }else{
-        [[[UIAlertView alloc] initWithTitle:@"成功" message:@"请输入您要设置的新手机号码" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+        [[[UIAlertView alloc] initWithTitle:@"警告" message:@"请输入您要设置的新手机号码" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
     }
 }
 @end

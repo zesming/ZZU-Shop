@@ -39,6 +39,12 @@
     [self.view addSubview:hud];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    BIDUsers *userEmail = [BIDUsers new];
+    self.currentEmailLabel.text = userEmail.email;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -54,7 +60,7 @@
     [self.theNewEmailTExtField resignFirstResponder];
     if (self.theNewEmailTExtField.text.length >0) {
         BIDUsers *userchangeEmail = [BIDUsers new];
-        userchangeEmail.phoneNumber = self.theNewEmailTExtField.text;
+        userchangeEmail.email = self.theNewEmailTExtField.text;
         [hud showAnimated:YES whileExecutingBlock:^{
             [userchangeEmail changeEmail];
         }onQueue:dispatch_get_global_queue(0, 0) completionBlock:^{
@@ -68,11 +74,11 @@
                     [[[UIAlertView alloc] initWithTitle:@"警告" message:resultDic[@"reason"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
                 }
             }else{
-                [[[UIAlertView alloc] initWithTitle:@"成功" message:userchangeEmail.requestError.localizedDescription delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+                [[[UIAlertView alloc] initWithTitle:@"提示" message:userchangeEmail.requestError.localizedDescription delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
             }
         }];
         
     }else{
-        [[[UIAlertView alloc] initWithTitle:@"成功" message:@"请输入您要设置的新安全邮箱" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+        [[[UIAlertView alloc] initWithTitle:@"警告" message:@"请输入您要设置的新安全邮箱" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
     }
 }@end

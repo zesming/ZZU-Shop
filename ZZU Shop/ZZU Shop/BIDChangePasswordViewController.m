@@ -71,29 +71,36 @@
 - (IBAction)changePassword:(id)sender {
     [self hideKeyboard];
     if (self.oldPasswordTextField.text.length > 0 && self.theNewPasswordTextField.text.length > 0 && self.theNewPasswordConfirmTextField.text.length > 0) {
-        BIDUsers *userChangePassword = [BIDUsers new];
-        if ([userChangePassword.password isEqualToString:self.oldPasswordTextField.text]) {
-            userChangePassword.theNewPassword = self.theNewPasswordConfirmTextField.text;
-            [hud showAnimated:YES whileExecutingBlock:^{
-                [userChangePassword changePassword];
-            }onQueue:dispatch_get_global_queue(0, 0) completionBlock:^{
-                if (!userChangePassword.requestError) {
-                    NSDictionary *resultDic = [NSJSONSerialization JSONObjectWithData:userChangePassword.userData options:NSJSONReadingMutableLeaves error:nil];
-                    NSInteger resultCode = [resultDic[@"resultcode"] intValue];
-                    if (resultCode == 200) {
-                        [[[UIAlertView alloc] initWithTitle:@"成功" message:resultDic[@"reason"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
-                        NSString *url = [NSString stringWithFormat:@"%@%@", filePath, @"userInfo.plist"];
-                        NSFileManager *logoutFileManager = [NSFileManager new];
-                        [logoutFileManager removeItemAtPath:url error:nil];
-                        [self.navigationController popToRootViewControllerAnimated:YES];
-                    }else{
-                        [[[UIAlertView alloc] initWithTitle:@"警告" message:resultDic[@"reason"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+        if ([self.theNewPasswordTextField.text isEqualToString:self.theNewPasswordConfirmTextField.text]) {
+            BIDUsers *userChangePassword = [BIDUsers new];
+            if ([userChangePassword.password isEqualToString:self.oldPasswordTextField.text]) {
+                userChangePassword.theNewPassword = self.theNewPasswordConfirmTextField.text;
+                [hud showAnimated:YES whileExecutingBlock:^{
+                    [userChangePassword changePassword];
+                }onQueue:dispatch_get_global_queue(0, 0) completionBlock:^{
+                    if (!userChangePassword.requestError) {
+                        NSDictionary *resultDic = [NSJSONSerialization JSONObjectWithData:userChangePassword.userData options:NSJSONReadingMutableLeaves error:nil];
+                        NSInteger resultCode = [resultDic[@"resultcode"] intValue];
+                        if (resultCode == 200) {
+                            [[[UIAlertView alloc] initWithTitle:@"成功" message:resultDic[@"reason"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+                            NSString *url = [NSString stringWithFormat:@"%@%@", filePath, @"userInfo.plist"];
+                            NSFileManager *logoutFileManager = [NSFileManager new];
+                            [logoutFileManager removeItemAtPath:url error:nil];
+                            [self.navigationController popToRootViewControllerAnimated:YES];
+                        }else{
+                            [[[UIAlertView alloc] initWithTitle:@"提示" message:resultDic[@"reason"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+                        }
                     }
-                }
-            }];
+                }];
+            }else{
+                [[[UIAlertView alloc] initWithTitle:@"警告" message:@"您的当前密码有误，请重新输入" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+            }
         }else{
-            [[[UIAlertView alloc] initWithTitle:@"警告" message:@"您的当前密码有误，请重新输入" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+            return;
         }
-    }[[[UIAlertView alloc] initWithTitle:@"警告" message:@"请完整输入修改信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+  
+    }else{
+        [[[UIAlertView alloc] initWithTitle:@"警告" message:@"请完整输入修改信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
+    }
 }
 @end

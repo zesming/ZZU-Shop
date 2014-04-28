@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
 
-@interface BIDGetPasswordViewController : UIViewController
+@interface BIDGetPasswordViewController : UIViewController<UIActionSheetDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
 {
     MBProgressHUD *hud;
 }
+@property (strong, nonatomic) NSMutableArray *questionsList;
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentValue;
 
@@ -24,6 +25,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *answerTextField;
 @property (weak, nonatomic) IBOutlet UITextField *emailStudentIDTextField;
 @property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+
+- (IBAction)pickerSheet:(id)sender;
 
 - (IBAction)hideKeyboardByTouch:(id)sender;
 - (void)hideKeyboard;

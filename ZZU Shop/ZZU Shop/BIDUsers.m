@@ -155,7 +155,7 @@
     app.networkActivityIndicatorVisible = YES;
     //创建请求API的地址
     NSString *getPassword_EIP = IP;
-    NSString *getPassword_EAPIURL = @":8080/zzuShop/interfaceJson/forgotPasswordAction_backPasswordByEmail.action?";
+    NSString *getPassword_EAPIURL = @":8080/zzuShop/interfaceJson/jsonForgotPasswordAction_backPasswordByEmail.action?";
     //创建含参数的url请求
     NSString *getPassword_EURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&email=%@", getPassword_EIP, getPassword_EAPIURL, self.userName, self.email];
     //将带有汉字的url转码成utf－8编码
@@ -252,6 +252,50 @@
     //使用带有参数的url向服务器发出请求
     NSURLRequest *changeEmailRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:changeEmailURL]];
     self.userData = [NSURLConnection sendSynchronousRequest:changeEmailRequest returningResponse:nil error:&error];
+    self.requestError = error;
+    app.networkActivityIndicatorVisible = NO;
+}
+
+- (void)getPersonalRecList
+{
+    NSError *error;
+    //创建网络读取指示器
+    UIApplication *app = [UIApplication sharedApplication];
+    //在进行网络读取的时候开启指示
+    app.networkActivityIndicatorVisible = YES;
+    //创建请求API的地址
+    NSString *personalListIP = IP;
+    NSString *personalListAPIURL = @":8080/zzuShop/interfaceJson/jsonGetPersonalizedProductListAction_getPersonalizedProductList.action?";
+    //创建含参数的url请求
+    NSString *personalListURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&secretKey=%@", personalListIP, personalListAPIURL, self.userName, self.secretKey];
+    //将带有汉字的url转码成utf－8编码
+    personalListURL = [personalListURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    //使用带有参数的url向服务器发出请求
+    NSURLRequest *personalListRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:personalListURL]];
+    self.userData = [NSURLConnection sendSynchronousRequest:personalListRequest returningResponse:nil error:&error];
+    self.requestError = error;
+    app.networkActivityIndicatorVisible = NO;
+}
+
+- (void)getAllList
+{
+    NSError *error;
+    //创建网络读取指示器
+    UIApplication *app = [UIApplication sharedApplication];
+    //在进行网络读取的时候开启指示
+    app.networkActivityIndicatorVisible = YES;
+    //创建请求API的地址
+    NSString *allListIP = IP;
+    NSString *allListAPIURL = @":8080/zzuShop/interfaceJson/jsonGetOrderListAction_getOrderList.action?";
+    //创建含参数的url请求
+    NSString *allListURL = [NSString stringWithFormat:@"http://%@%@studentID=%@&secretKey=%@&page=%ld", allListIP, allListAPIURL, self.userName, self.secretKey, (long)self.listPage];
+    //将带有汉字的url转码成utf－8编码
+    allListURL = [allListURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    //使用带有参数的url向服务器发出请求
+    NSURLRequest *allListRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:allListURL]];
+    self.userData = [NSURLConnection sendSynchronousRequest:allListRequest returningResponse:nil error:&error];
     self.requestError = error;
     app.networkActivityIndicatorVisible = NO;
 }
