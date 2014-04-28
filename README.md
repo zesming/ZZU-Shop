@@ -2,6 +2,10 @@ ZZU-Shop
 ========
 A Client for ZZU Shop
 
+0.5
+=======
+Add so many things.
+
 0.4
 ========
 Add Update user info mode
