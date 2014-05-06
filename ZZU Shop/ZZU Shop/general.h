@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #define ISPHONE
 
-#define IP @"192.168.0.1"
+#define IP @"172.27.35.1"
 
 #ifdef ISPHONE
     #define filePath NSTemporaryDirectory()
 #else
-    #define filePath @"/Users/Ming/Desktop/"
+    #define filePath @"/Users/zhao/Desktop/"
 #endif

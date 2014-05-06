@@ -11,6 +11,8 @@
 @interface BIDMyAccountTableViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet UILabel *nickNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *phoneNumberLabel;
+@property (weak, nonatomic) IBOutlet UILabel *emailLabel;
 
+- (void)loginWhenStart;
 - (IBAction)logoutAccount:(id)sender;
 @end

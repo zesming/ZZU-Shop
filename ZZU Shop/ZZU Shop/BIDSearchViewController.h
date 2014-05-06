@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDSearchViewController : UIViewController
+@interface BIDSearchViewController : UIViewController<UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 - (IBAction)hideKeyboard:(id)sender;

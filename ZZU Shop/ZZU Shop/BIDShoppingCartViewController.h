@@ -12,4 +12,5 @@
 @property (weak, nonatomic) IBOutlet UIView *notingContainView;
 @property (weak, nonatomic) IBOutlet UITextView *nothingDiscrption;
 
+- (IBAction)goShopping:(id)sender;
 @end

@@ -7,9 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0B9EE7190CBAE900E91691 /* BIDChangePhoneNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B9EE6190CBAE900E91691 /* BIDChangePhoneNumberViewController.m */; };
+		3A0B9EEA190CBE3C00E91691 /* BIDChangeEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B9EE9190CBE3C00E91691 /* BIDChangeEmailViewController.m */; };
+		3A0BBBF4190D411800ECEFA6 /* BIDPersonalRecTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BBBF3190D411800ECEFA6 /* BIDPersonalRecTableViewCell.m */; };
+		3A134BDC1915D67C00226086 /* BIDShoppingCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A134BDB1915D67C00226086 /* BIDShoppingCartTableViewController.m */; };
+		3A134BDF1915E02F00226086 /* BIDShoppingCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A134BDE1915E02F00226086 /* BIDShoppingCartTableViewCell.m */; };
 		3A1B624019022E01004B364F /* myShop_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B623F19022E01004B364F /* myShop_bg@2x.png */; };
 		3A1B6242190236E1004B364F /* indexSearchButton_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */; };
+		3A31D11C190CA54100D6D147 /* BIDChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31D11B190CA54100D6D147 /* BIDChangePasswordViewController.m */; };
+		3A31D11F190CB15000D6D147 /* BIDChangeNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31D11E190CB15000D6D147 /* BIDChangeNickNameViewController.m */; };
+		3A3DA7B2190EB1970049455A /* BIDRateProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA7B1190EB1970049455A /* BIDRateProductViewController.m */; };
 		3A6103AA190222C00091D27A /* noShopingCart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6103A9190222C00091D27A /* noShopingCart@2x.png */; };
+		3A7E93DB190E773B0025866B /* noimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93D9190E773B0025866B /* noimage@2x.png */; };
+		3A7E93DC190E773B0025866B /* topContainView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93DA190E773B0025866B /* topContainView@2x.png */; };
+		3A7E93F0190E83CA0025866B /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E93E0190E83CA0025866B /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A7E93F1190E83CA0025866B /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E93E2190E83CA0025866B /* LoadMoreTableFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A7E93F2190E83CA0025866B /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E93E4190E83CA0025866B /* MessageInterceptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A7E93F3190E83CA0025866B /* PullTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E93E6190E83CA0025866B /* PullTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A7E93F4190E83CA0025866B /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93E8190E83CA0025866B /* blackArrow.png */; };
+		3A7E93F5190E83CA0025866B /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93E9190E83CA0025866B /* blackArrow@2x.png */; };
+		3A7E93F6190E83CA0025866B /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93EA190E83CA0025866B /* blueArrow.png */; };
+		3A7E93F7190E83CA0025866B /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93EB190E83CA0025866B /* blueArrow@2x.png */; };
+		3A7E93F8190E83CA0025866B /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93EC190E83CA0025866B /* grayArrow.png */; };
+		3A7E93F9190E83CA0025866B /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93ED190E83CA0025866B /* grayArrow@2x.png */; };
+		3A7E93FA190E83CA0025866B /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93EE190E83CA0025866B /* whiteArrow.png */; };
+		3A7E93FB190E83CA0025866B /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E93EF190E83CA0025866B /* whiteArrow@2x.png */; };
+		3A7E9401190E84DD0025866B /* BIDAllListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E9400190E84DD0025866B /* BIDAllListTableViewController.m */; };
+		3A7E9404190E8BDB0025866B /* BIDAllListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E9403190E8BDB0025866B /* BIDAllListTableViewCell.m */; };
+		3A8E42B91917B9A8006ED985 /* order_bot_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8E42B61917B9A8006ED985 /* order_bot_bg@2x.png */; };
+		3A8E42BA1917B9A8006ED985 /* order_mid_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8E42B71917B9A8006ED985 /* order_mid_bg@2x.png */; };
+		3A8E42BB1917B9A8006ED985 /* order_top_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8E42B81917B9A8006ED985 /* order_top_bg@2x.png */; };
+		3AA50E8F190FE7890016E95B /* index_top_container@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA50E8E190FE7890016E95B /* index_top_container@2x.png */; };
+		3AC138E9190B5FFA001869D1 /* BIDGetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC138E8190B5FFA001869D1 /* BIDGetPasswordViewController.m */; };
 		3ADF0413190228A700E44D0E /* loginContainView_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */; };
 		FE106C2F1908B79200F67E07 /* BIDMyAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */; };
 		FE303CE51900FE4900600D38 /* index@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CE41900FE4900600D38 /* index@2x.png */; };
@@ -19,6 +48,14 @@
 		FE303CEE190119FB00600D38 /* BIDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE303CED190119FB00600D38 /* BIDLoginViewController.m */; };
 		FE303CF019012A2100600D38 /* login_bt_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CEF19012A2100600D38 /* login_bt_bg@2x.png */; };
 		FE303CF219012B4A00600D38 /* login_bt_bg_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE303CF119012B4A00600D38 /* login_bt_bg_highlight@2x.png */; };
+		FE34084B190E2A97005785D9 /* BIDImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34084A190E2A97005785D9 /* BIDImageDownload.m */; };
+		FE34084E190E3AF6005785D9 /* BIDUILabelStrikeThrough.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34084D190E3AF6005785D9 /* BIDUILabelStrikeThrough.m */; };
+		FE3408C1190E4C75005785D9 /* BIDProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3408C0190E4C75005785D9 /* BIDProduct.m */; };
+		FE3408C4190E5105005785D9 /* BIDProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3408C3190E5105005785D9 /* BIDProductDetailViewController.m */; };
+		FE3DE2A1190FC1D8008DB5CB /* BIDSearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3DE2A0190FC1D8008DB5CB /* BIDSearchResultTableViewController.m */; };
+		FE3DE2A4190FC1F9008DB5CB /* BIDSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3DE2A3190FC1F9008DB5CB /* BIDSearchResultTableViewCell.m */; };
+		FE6064861918D79E00620CC0 /* userImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6064851918D79E00620CC0 /* userImage@2x.png */; };
+		FE627876190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE627875190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.m */; };
 		FE7633F118FFC1DC00700063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7633F018FFC1DC00700063 /* Foundation.framework */; };
 		FE7633F318FFC1DC00700063 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7633F218FFC1DC00700063 /* CoreGraphics.framework */; };
 		FE7633F518FFC1DC00700063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7633F418FFC1DC00700063 /* UIKit.framework */; };
@@ -26,23 +63,73 @@
 		FE7633FD18FFC1DC00700063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7633FC18FFC1DC00700063 /* main.m */; };
 		FE76340118FFC1DC00700063 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76340018FFC1DC00700063 /* BIDAppDelegate.m */; };
 		FE76340418FFC1DC00700063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE76340218FFC1DC00700063 /* Main.storyboard */; };
-		FE76340718FFC1DC00700063 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76340618FFC1DC00700063 /* BIDViewController.m */; };
 		FE76340918FFC1DC00700063 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE76340818FFC1DC00700063 /* Images.xcassets */; };
 		FE76342718FFC64900700063 /* BIDIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76342618FFC64900700063 /* BIDIndexViewController.m */; };
 		FE76342C18FFC85700700063 /* BIDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76342B18FFC85700700063 /* BIDSearchViewController.m */; };
 		FE76343018FFCACB00700063 /* BIDShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE76342F18FFCACB00700063 /* BIDShoppingCartViewController.m */; };
 		FE81297D1900D8E900D2A08D /* contain_bg_200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE81297C1900D8E900D2A08D /* contain_bg_200@2x.png */; };
+		FE9AC0B4190F4AB5004E8304 /* index_top_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9AC0B3190F4AB5004E8304 /* index_top_left@2x.png */; };
+		FE9AC0B6190F4ABE004E8304 /* index_top_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9AC0B5190F4ABE004E8304 /* index_top_right@2x.png */; };
+		FEAA69D319171B52008531FD /* contentView_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAA69D219171B52008531FD /* contentView_bg@2x.png */; };
 		FEAB2CBC1909065600200763 /* BIDCheckIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB2CBB1909065600200763 /* BIDCheckIDViewController.m */; };
 		FEAB2CBF1909080400200763 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB2CBE1909080400200763 /* MBProgressHUD.m */; };
 		FEB395311906455100303855 /* BIDRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB395301906455100303855 /* BIDRegisterViewController.m */; };
 		FEB3953C190656F200303855 /* BIDUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3953B190656F200303855 /* BIDUsers.m */; };
+		FEDF693819175DF9000D947C /* BIDPayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF693719175DF9000D947C /* BIDPayTableViewController.m */; };
+		FEDF693B191775E2000D947C /* BIDRateListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF693A191775E2000D947C /* BIDRateListTableViewCell.m */; };
+		FEDF693E19177859000D947C /* BIDAllRateListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF693D19177859000D947C /* BIDAllRateListTableViewController.m */; };
+		FEDF69411917861D000D947C /* BIDOrderListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF69401917861D000D947C /* BIDOrderListDetailViewController.m */; };
 		FEE93AF519079F100064E837 /* BIDMyShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE93AF419079F100064E837 /* BIDMyShopTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A0B9EE5190CBAE900E91691 /* BIDChangePhoneNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDChangePhoneNumberViewController.h; path = "ZZU Shop/BIDChangePhoneNumberViewController.h"; sourceTree = "<group>"; };
+		3A0B9EE6190CBAE900E91691 /* BIDChangePhoneNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDChangePhoneNumberViewController.m; path = "ZZU Shop/BIDChangePhoneNumberViewController.m"; sourceTree = "<group>"; };
+		3A0B9EE8190CBE3C00E91691 /* BIDChangeEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDChangeEmailViewController.h; path = "ZZU Shop/BIDChangeEmailViewController.h"; sourceTree = "<group>"; };
+		3A0B9EE9190CBE3C00E91691 /* BIDChangeEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDChangeEmailViewController.m; path = "ZZU Shop/BIDChangeEmailViewController.m"; sourceTree = "<group>"; };
+		3A0BBBF2190D411800ECEFA6 /* BIDPersonalRecTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDPersonalRecTableViewCell.h; path = "ZZU Shop/BIDPersonalRecTableViewCell.h"; sourceTree = "<group>"; };
+		3A0BBBF3190D411800ECEFA6 /* BIDPersonalRecTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDPersonalRecTableViewCell.m; path = "ZZU Shop/BIDPersonalRecTableViewCell.m"; sourceTree = "<group>"; };
+		3A134BDA1915D67C00226086 /* BIDShoppingCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDShoppingCartTableViewController.h; sourceTree = "<group>"; };
+		3A134BDB1915D67C00226086 /* BIDShoppingCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDShoppingCartTableViewController.m; sourceTree = "<group>"; };
+		3A134BDD1915E02F00226086 /* BIDShoppingCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDShoppingCartTableViewCell.h; path = "ZZU Shop/BIDShoppingCartTableViewCell.h"; sourceTree = "<group>"; };
+		3A134BDE1915E02F00226086 /* BIDShoppingCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDShoppingCartTableViewCell.m; path = "ZZU Shop/BIDShoppingCartTableViewCell.m"; sourceTree = "<group>"; };
 		3A1B623F19022E01004B364F /* myShop_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myShop_bg@2x.png"; sourceTree = "<group>"; };
 		3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indexSearchButton_bg@2x.png"; sourceTree = "<group>"; };
+		3A31D11A190CA54100D6D147 /* BIDChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDChangePasswordViewController.h; path = "ZZU Shop/BIDChangePasswordViewController.h"; sourceTree = "<group>"; };
+		3A31D11B190CA54100D6D147 /* BIDChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDChangePasswordViewController.m; path = "ZZU Shop/BIDChangePasswordViewController.m"; sourceTree = "<group>"; };
+		3A31D11D190CB15000D6D147 /* BIDChangeNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDChangeNickNameViewController.h; path = "ZZU Shop/BIDChangeNickNameViewController.h"; sourceTree = "<group>"; };
+		3A31D11E190CB15000D6D147 /* BIDChangeNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDChangeNickNameViewController.m; path = "ZZU Shop/BIDChangeNickNameViewController.m"; sourceTree = "<group>"; };
+		3A3DA7B0190EB1970049455A /* BIDRateProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRateProductViewController.h; sourceTree = "<group>"; };
+		3A3DA7B1190EB1970049455A /* BIDRateProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRateProductViewController.m; sourceTree = "<group>"; };
 		3A6103A9190222C00091D27A /* noShopingCart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noShopingCart@2x.png"; sourceTree = "<group>"; };
+		3A7E93D9190E773B0025866B /* noimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noimage@2x.png"; sourceTree = "<group>"; };
+		3A7E93DA190E773B0025866B /* topContainView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topContainView@2x.png"; sourceTree = "<group>"; };
+		3A7E93DF190E83CA0025866B /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		3A7E93E0190E83CA0025866B /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		3A7E93E1190E83CA0025866B /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		3A7E93E2190E83CA0025866B /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		3A7E93E3190E83CA0025866B /* MessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInterceptor.h; sourceTree = "<group>"; };
+		3A7E93E4190E83CA0025866B /* MessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInterceptor.m; sourceTree = "<group>"; };
+		3A7E93E5190E83CA0025866B /* PullTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableView.h; sourceTree = "<group>"; };
+		3A7E93E6190E83CA0025866B /* PullTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableView.m; sourceTree = "<group>"; };
+		3A7E93E8190E83CA0025866B /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		3A7E93E9190E83CA0025866B /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		3A7E93EA190E83CA0025866B /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		3A7E93EB190E83CA0025866B /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		3A7E93EC190E83CA0025866B /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		3A7E93ED190E83CA0025866B /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		3A7E93EE190E83CA0025866B /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		3A7E93EF190E83CA0025866B /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		3A7E93FF190E84DD0025866B /* BIDAllListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDAllListTableViewController.h; path = "ZZU Shop/BIDAllListTableViewController.h"; sourceTree = "<group>"; };
+		3A7E9400190E84DD0025866B /* BIDAllListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDAllListTableViewController.m; path = "ZZU Shop/BIDAllListTableViewController.m"; sourceTree = "<group>"; };
+		3A7E9402190E8BDB0025866B /* BIDAllListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDAllListTableViewCell.h; path = "ZZU Shop/BIDAllListTableViewCell.h"; sourceTree = "<group>"; };
+		3A7E9403190E8BDB0025866B /* BIDAllListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDAllListTableViewCell.m; path = "ZZU Shop/BIDAllListTableViewCell.m"; sourceTree = "<group>"; };
+		3A8E42B61917B9A8006ED985 /* order_bot_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_bot_bg@2x.png"; sourceTree = "<group>"; };
+		3A8E42B71917B9A8006ED985 /* order_mid_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_mid_bg@2x.png"; sourceTree = "<group>"; };
+		3A8E42B81917B9A8006ED985 /* order_top_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_top_bg@2x.png"; sourceTree = "<group>"; };
+		3AA50E8E190FE7890016E95B /* index_top_container@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_top_container@2x.png"; sourceTree = "<group>"; };
+		3AC138E7190B5FFA001869D1 /* BIDGetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDGetPasswordViewController.h; path = "ZZU Shop/BIDGetPasswordViewController.h"; sourceTree = "<group>"; };
+		3AC138E8190B5FFA001869D1 /* BIDGetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDGetPasswordViewController.m; path = "ZZU Shop/BIDGetPasswordViewController.m"; sourceTree = "<group>"; };
 		3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginContainView_bg@2x.png"; sourceTree = "<group>"; };
 		FE106C2D1908B79200F67E07 /* BIDMyAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDMyAccountTableViewController.h; path = "ZZU Shop/BIDMyAccountTableViewController.h"; sourceTree = "<group>"; };
 		FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMyAccountTableViewController.m; path = "ZZU Shop/BIDMyAccountTableViewController.m"; sourceTree = "<group>"; };
@@ -50,10 +137,25 @@
 		FE303CE61900FFC700600D38 /* myShop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myShop@2x.png"; sourceTree = "<group>"; };
 		FE303CE81900FFCE00600D38 /* shopCart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopCart@2x.png"; sourceTree = "<group>"; };
 		FE303CEA190103A100600D38 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
-		FE303CEC190119FB00600D38 /* BIDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDLoginViewController.h; sourceTree = "<group>"; };
-		FE303CED190119FB00600D38 /* BIDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDLoginViewController.m; sourceTree = "<group>"; };
+		FE303CEC190119FB00600D38 /* BIDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDLoginViewController.h; path = "ZZU Shop/BIDLoginViewController.h"; sourceTree = "<group>"; };
+		FE303CED190119FB00600D38 /* BIDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDLoginViewController.m; path = "ZZU Shop/BIDLoginViewController.m"; sourceTree = "<group>"; };
 		FE303CEF19012A2100600D38 /* login_bt_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_bt_bg@2x.png"; sourceTree = "<group>"; };
 		FE303CF119012B4A00600D38 /* login_bt_bg_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_bt_bg_highlight@2x.png"; sourceTree = "<group>"; };
+		FE340849190E2A97005785D9 /* BIDImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDImageDownload.h; sourceTree = "<group>"; };
+		FE34084A190E2A97005785D9 /* BIDImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDImageDownload.m; sourceTree = "<group>"; };
+		FE34084C190E3AF6005785D9 /* BIDUILabelStrikeThrough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDUILabelStrikeThrough.h; sourceTree = "<group>"; };
+		FE34084D190E3AF6005785D9 /* BIDUILabelStrikeThrough.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDUILabelStrikeThrough.m; sourceTree = "<group>"; };
+		FE3408BF190E4C75005785D9 /* BIDProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDProduct.h; sourceTree = "<group>"; };
+		FE3408C0190E4C75005785D9 /* BIDProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDProduct.m; sourceTree = "<group>"; };
+		FE3408C2190E5105005785D9 /* BIDProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDProductDetailViewController.h; sourceTree = "<group>"; };
+		FE3408C3190E5105005785D9 /* BIDProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDProductDetailViewController.m; sourceTree = "<group>"; };
+		FE3DE29F190FC1D8008DB5CB /* BIDSearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSearchResultTableViewController.h; sourceTree = "<group>"; };
+		FE3DE2A0190FC1D8008DB5CB /* BIDSearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSearchResultTableViewController.m; sourceTree = "<group>"; };
+		FE3DE2A2190FC1F9008DB5CB /* BIDSearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDSearchResultTableViewCell.h; path = "ZZU Shop/BIDSearchResultTableViewCell.h"; sourceTree = "<group>"; };
+		FE3DE2A3190FC1F9008DB5CB /* BIDSearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDSearchResultTableViewCell.m; path = "ZZU Shop/BIDSearchResultTableViewCell.m"; sourceTree = "<group>"; };
+		FE6064851918D79E00620CC0 /* userImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userImage@2x.png"; sourceTree = "<group>"; };
+		FE627874190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDPersonalRecListTableViewController.h; path = "ZZU Shop/BIDPersonalRecListTableViewController.h"; sourceTree = "<group>"; };
+		FE627875190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDPersonalRecListTableViewController.m; path = "ZZU Shop/BIDPersonalRecListTableViewController.m"; sourceTree = "<group>"; };
 		FE7633ED18FFC1DC00700063 /* 郑大商城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "郑大商城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7633F018FFC1DC00700063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE7633F218FFC1DC00700063 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +167,6 @@
 		FE7633FF18FFC1DC00700063 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
 		FE76340018FFC1DC00700063 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
 		FE76340318FFC1DC00700063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE76340518FFC1DC00700063 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
-		FE76340618FFC1DC00700063 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		FE76340818FFC1DC00700063 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ZZU Shop/Images.xcassets"; sourceTree = "<group>"; };
 		FE76340F18FFC1DC00700063 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FE76342518FFC64900700063 /* BIDIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDIndexViewController.h; sourceTree = "<group>"; };
@@ -76,10 +176,13 @@
 		FE76342E18FFCACB00700063 /* BIDShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDShoppingCartViewController.h; sourceTree = "<group>"; };
 		FE76342F18FFCACB00700063 /* BIDShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDShoppingCartViewController.m; sourceTree = "<group>"; };
 		FE81297C1900D8E900D2A08D /* contain_bg_200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contain_bg_200@2x.png"; sourceTree = "<group>"; };
+		FE9AC0B3190F4AB5004E8304 /* index_top_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_top_left@2x.png"; sourceTree = "<group>"; };
+		FE9AC0B5190F4ABE004E8304 /* index_top_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_top_right@2x.png"; sourceTree = "<group>"; };
+		FEAA69D219171B52008531FD /* contentView_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contentView_bg@2x.png"; sourceTree = "<group>"; };
 		FEAB2CB81909055200200763 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		FEAB2CB91909055200200763 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		FEAB2CBA1909065600200763 /* BIDCheckIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckIDViewController.h; sourceTree = "<group>"; };
-		FEAB2CBB1909065600200763 /* BIDCheckIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckIDViewController.m; sourceTree = "<group>"; };
+		FEAB2CBA1909065600200763 /* BIDCheckIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDCheckIDViewController.h; path = "ZZU Shop/BIDCheckIDViewController.h"; sourceTree = "<group>"; };
+		FEAB2CBB1909065600200763 /* BIDCheckIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDCheckIDViewController.m; path = "ZZU Shop/BIDCheckIDViewController.m"; sourceTree = "<group>"; };
 		FEAB2CBD1909080400200763 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FEAB2CBE1909080400200763 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		FEB3952F1906455100303855 /* BIDRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDRegisterViewController.h; path = "ZZU Shop/BIDRegisterViewController.h"; sourceTree = "<group>"; };
@@ -87,6 +190,14 @@
 		FEB3953219064A0400303855 /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
 		FEB3953A190656F200303855 /* BIDUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDUsers.h; sourceTree = "<group>"; };
 		FEB3953B190656F200303855 /* BIDUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDUsers.m; sourceTree = "<group>"; };
+		FEDF693619175DF9000D947C /* BIDPayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPayTableViewController.h; sourceTree = "<group>"; };
+		FEDF693719175DF9000D947C /* BIDPayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPayTableViewController.m; sourceTree = "<group>"; };
+		FEDF6939191775E2000D947C /* BIDRateListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDRateListTableViewCell.h; path = "ZZU Shop/BIDRateListTableViewCell.h"; sourceTree = "<group>"; };
+		FEDF693A191775E2000D947C /* BIDRateListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDRateListTableViewCell.m; path = "ZZU Shop/BIDRateListTableViewCell.m"; sourceTree = "<group>"; };
+		FEDF693C19177859000D947C /* BIDAllRateListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDAllRateListTableViewController.h; sourceTree = "<group>"; };
+		FEDF693D19177859000D947C /* BIDAllRateListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDAllRateListTableViewController.m; sourceTree = "<group>"; };
+		FEDF693F1917861D000D947C /* BIDOrderListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDOrderListDetailViewController.h; path = "ZZU Shop/BIDOrderListDetailViewController.h"; sourceTree = "<group>"; };
+		FEDF69401917861D000D947C /* BIDOrderListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDOrderListDetailViewController.m; path = "ZZU Shop/BIDOrderListDetailViewController.m"; sourceTree = "<group>"; };
 		FEE93AF319079F100064E837 /* BIDMyShopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDMyShopTableViewController.h; path = "ZZU Shop/BIDMyShopTableViewController.h"; sourceTree = "<group>"; };
 		FEE93AF419079F100064E837 /* BIDMyShopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMyShopTableViewController.m; path = "ZZU Shop/BIDMyShopTableViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +216,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0BBBF5190D411E00ECEFA6 /* CustomTabelCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BBBF2190D411800ECEFA6 /* BIDPersonalRecTableViewCell.h */,
+				3A0BBBF3190D411800ECEFA6 /* BIDPersonalRecTableViewCell.m */,
+				3A7E9402190E8BDB0025866B /* BIDAllListTableViewCell.h */,
+				3A7E9403190E8BDB0025866B /* BIDAllListTableViewCell.m */,
+				FE3DE2A2190FC1F9008DB5CB /* BIDSearchResultTableViewCell.h */,
+				FE3DE2A3190FC1F9008DB5CB /* BIDSearchResultTableViewCell.m */,
+				3A134BDD1915E02F00226086 /* BIDShoppingCartTableViewCell.h */,
+				3A134BDE1915E02F00226086 /* BIDShoppingCartTableViewCell.m */,
+				FEDF6939191775E2000D947C /* BIDRateListTableViewCell.h */,
+				FEDF693A191775E2000D947C /* BIDRateListTableViewCell.m */,
+			);
+			name = CustomTabelCell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3A7E93DD190E83CA0025866B /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E93DE190E83CA0025866B /* Classes */,
+				3A7E93E7190E83CA0025866B /* Resources */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		3A7E93DE190E83CA0025866B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E93DF190E83CA0025866B /* EGORefreshTableHeaderView.h */,
+				3A7E93E0190E83CA0025866B /* EGORefreshTableHeaderView.m */,
+				3A7E93E1190E83CA0025866B /* LoadMoreTableFooterView.h */,
+				3A7E93E2190E83CA0025866B /* LoadMoreTableFooterView.m */,
+				3A7E93E3190E83CA0025866B /* MessageInterceptor.h */,
+				3A7E93E4190E83CA0025866B /* MessageInterceptor.m */,
+				3A7E93E5190E83CA0025866B /* PullTableView.h */,
+				3A7E93E6190E83CA0025866B /* PullTableView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A7E93E7190E83CA0025866B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E93E8190E83CA0025866B /* blackArrow.png */,
+				3A7E93E9190E83CA0025866B /* blackArrow@2x.png */,
+				3A7E93EA190E83CA0025866B /* blueArrow.png */,
+				3A7E93EB190E83CA0025866B /* blueArrow@2x.png */,
+				3A7E93EC190E83CA0025866B /* grayArrow.png */,
+				3A7E93ED190E83CA0025866B /* grayArrow@2x.png */,
+				3A7E93EE190E83CA0025866B /* whiteArrow.png */,
+				3A7E93EF190E83CA0025866B /* whiteArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE34084F190E3AFB005785D9 /* StrikeThrough */ = {
+			isa = PBXGroup;
+			children = (
+				FE34084C190E3AF6005785D9 /* BIDUILabelStrikeThrough.h */,
+				FE34084D190E3AF6005785D9 /* BIDUILabelStrikeThrough.m */,
+			);
+			name = StrikeThrough;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FE3408C5190E510D005785D9 /* 商品 */ = {
+			isa = PBXGroup;
+			children = (
+				FE3408C2190E5105005785D9 /* BIDProductDetailViewController.h */,
+				FE3408C3190E5105005785D9 /* BIDProductDetailViewController.m */,
+				3A3DA7B0190EB1970049455A /* BIDRateProductViewController.h */,
+				3A3DA7B1190EB1970049455A /* BIDRateProductViewController.m */,
+				FEDF693C19177859000D947C /* BIDAllRateListTableViewController.h */,
+				FEDF693D19177859000D947C /* BIDAllRateListTableViewController.m */,
+			);
+			name = "商品";
+			sourceTree = "<group>";
+		};
 		FE7633E418FFC1DC00700063 = {
 			isa = PBXGroup;
 			children = (
@@ -138,18 +329,19 @@
 		FE7633F618FFC1DC00700063 /* ZZU Shop */ = {
 			isa = PBXGroup;
 			children = (
+				FE34084F190E3AFB005785D9 /* StrikeThrough */,
 				FEAB2CC01909080900200763 /* ProgressHUD */,
 				FEB3953219064A0400303855 /* general.h */,
 				FE7633FF18FFC1DC00700063 /* BIDAppDelegate.h */,
 				FE76340018FFC1DC00700063 /* BIDAppDelegate.m */,
 				FE76340218FFC1DC00700063 /* Main.storyboard */,
-				FE76340518FFC1DC00700063 /* BIDViewController.h */,
-				FE76340618FFC1DC00700063 /* BIDViewController.m */,
 				FE76342818FFC64E00700063 /* 首页 */,
 				FE76342D18FFC85B00700063 /* 搜索 */,
 				FE76343118FFCAF200700063 /* 购物车 */,
 				FE76343518FFCB1D00700063 /* 我的商城 */,
+				FE3408C5190E510D005785D9 /* 商品 */,
 				FEB3953D190656FB00303855 /* Model */,
+				3A0BBBF5190D411E00ECEFA6 /* CustomTabelCell */,
 			);
 			path = "ZZU Shop";
 			sourceTree = "<group>";
@@ -157,6 +349,17 @@
 		FE7633F718FFC1DC00700063 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE6064851918D79E00620CC0 /* userImage@2x.png */,
+				3A8E42B61917B9A8006ED985 /* order_bot_bg@2x.png */,
+				3A8E42B71917B9A8006ED985 /* order_mid_bg@2x.png */,
+				3A8E42B81917B9A8006ED985 /* order_top_bg@2x.png */,
+				FEAA69D219171B52008531FD /* contentView_bg@2x.png */,
+				3AA50E8E190FE7890016E95B /* index_top_container@2x.png */,
+				3A7E93DD190E83CA0025866B /* EGOTableViewPullRefresh */,
+				FE9AC0B3190F4AB5004E8304 /* index_top_left@2x.png */,
+				FE9AC0B5190F4ABE004E8304 /* index_top_right@2x.png */,
+				3A7E93D9190E773B0025866B /* noimage@2x.png */,
+				3A7E93DA190E773B0025866B /* topContainView@2x.png */,
 				3A1B6241190236E1004B364F /* indexSearchButton_bg@2x.png */,
 				3A1B623F19022E01004B364F /* myShop_bg@2x.png */,
 				3ADF0412190228A700E44D0E /* loginContainView_bg@2x.png */,
@@ -191,6 +394,8 @@
 			children = (
 				FE76342A18FFC85700700063 /* BIDSearchViewController.h */,
 				FE76342B18FFC85700700063 /* BIDSearchViewController.m */,
+				FE3DE29F190FC1D8008DB5CB /* BIDSearchResultTableViewController.h */,
+				FE3DE2A0190FC1D8008DB5CB /* BIDSearchResultTableViewController.m */,
 			);
 			name = "搜索";
 			sourceTree = "<group>";
@@ -200,6 +405,10 @@
 			children = (
 				FE76342E18FFCACB00700063 /* BIDShoppingCartViewController.h */,
 				FE76342F18FFCACB00700063 /* BIDShoppingCartViewController.m */,
+				3A134BDA1915D67C00226086 /* BIDShoppingCartTableViewController.h */,
+				3A134BDB1915D67C00226086 /* BIDShoppingCartTableViewController.m */,
+				FEDF693619175DF9000D947C /* BIDPayTableViewController.h */,
+				FEDF693719175DF9000D947C /* BIDPayTableViewController.m */,
 			);
 			name = "购物车";
 			sourceTree = "<group>";
@@ -217,6 +426,22 @@
 				FEB395301906455100303855 /* BIDRegisterViewController.m */,
 				FE106C2D1908B79200F67E07 /* BIDMyAccountTableViewController.h */,
 				FE106C2E1908B79200F67E07 /* BIDMyAccountTableViewController.m */,
+				3AC138E7190B5FFA001869D1 /* BIDGetPasswordViewController.h */,
+				3AC138E8190B5FFA001869D1 /* BIDGetPasswordViewController.m */,
+				3A31D11A190CA54100D6D147 /* BIDChangePasswordViewController.h */,
+				3A31D11B190CA54100D6D147 /* BIDChangePasswordViewController.m */,
+				3A31D11D190CB15000D6D147 /* BIDChangeNickNameViewController.h */,
+				3A31D11E190CB15000D6D147 /* BIDChangeNickNameViewController.m */,
+				3A0B9EE5190CBAE900E91691 /* BIDChangePhoneNumberViewController.h */,
+				3A0B9EE6190CBAE900E91691 /* BIDChangePhoneNumberViewController.m */,
+				3A0B9EE8190CBE3C00E91691 /* BIDChangeEmailViewController.h */,
+				3A0B9EE9190CBE3C00E91691 /* BIDChangeEmailViewController.m */,
+				FE627874190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.h */,
+				FE627875190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.m */,
+				3A7E93FF190E84DD0025866B /* BIDAllListTableViewController.h */,
+				3A7E9400190E84DD0025866B /* BIDAllListTableViewController.m */,
+				FEDF693F1917861D000D947C /* BIDOrderListDetailViewController.h */,
+				FEDF69401917861D000D947C /* BIDOrderListDetailViewController.m */,
 			);
 			name = "我的商城";
 			path = ..;
@@ -235,8 +460,12 @@
 		FEB3953D190656FB00303855 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FE340849190E2A97005785D9 /* BIDImageDownload.h */,
+				FE34084A190E2A97005785D9 /* BIDImageDownload.m */,
 				FEB3953A190656F200303855 /* BIDUsers.h */,
 				FEB3953B190656F200303855 /* BIDUsers.m */,
+				FE3408BF190E4C75005785D9 /* BIDProduct.h */,
+				FE3408C0190E4C75005785D9 /* BIDProduct.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,19 +526,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6103AA190222C00091D27A /* noShopingCart@2x.png in Resources */,
+				3A7E93DB190E773B0025866B /* noimage@2x.png in Resources */,
 				FE76340918FFC1DC00700063 /* Images.xcassets in Resources */,
 				FE7633FB18FFC1DC00700063 /* InfoPlist.strings in Resources */,
 				FE303CE91900FFCE00600D38 /* shopCart@2x.png in Resources */,
 				3A1B6242190236E1004B364F /* indexSearchButton_bg@2x.png in Resources */,
 				FE303CF219012B4A00600D38 /* login_bt_bg_highlight@2x.png in Resources */,
+				3A7E93F6190E83CA0025866B /* blueArrow.png in Resources */,
+				FEAA69D319171B52008531FD /* contentView_bg@2x.png in Resources */,
 				FE303CEB190103A100600D38 /* search@2x.png in Resources */,
 				3A1B624019022E01004B364F /* myShop_bg@2x.png in Resources */,
+				3A7E93FB190E83CA0025866B /* whiteArrow@2x.png in Resources */,
+				3A8E42BB1917B9A8006ED985 /* order_top_bg@2x.png in Resources */,
 				FE76340418FFC1DC00700063 /* Main.storyboard in Resources */,
+				3A8E42B91917B9A8006ED985 /* order_bot_bg@2x.png in Resources */,
 				FE303CE71900FFC700600D38 /* myShop@2x.png in Resources */,
+				3A7E93F8190E83CA0025866B /* grayArrow.png in Resources */,
+				3A7E93FA190E83CA0025866B /* whiteArrow.png in Resources */,
+				FE6064861918D79E00620CC0 /* userImage@2x.png in Resources */,
+				3A7E93F7190E83CA0025866B /* blueArrow@2x.png in Resources */,
+				FE9AC0B6190F4ABE004E8304 /* index_top_right@2x.png in Resources */,
+				3A7E93F4190E83CA0025866B /* blackArrow.png in Resources */,
+				3A7E93F9190E83CA0025866B /* grayArrow@2x.png in Resources */,
 				FE303CF019012A2100600D38 /* login_bt_bg@2x.png in Resources */,
+				3A7E93DC190E773B0025866B /* topContainView@2x.png in Resources */,
+				3A7E93F5190E83CA0025866B /* blackArrow@2x.png in Resources */,
 				3ADF0413190228A700E44D0E /* loginContainView_bg@2x.png in Resources */,
+				3A8E42BA1917B9A8006ED985 /* order_mid_bg@2x.png in Resources */,
 				FE303CE51900FE4900600D38 /* index@2x.png in Resources */,
+				3AA50E8F190FE7890016E95B /* index_top_container@2x.png in Resources */,
 				FE81297D1900D8E900D2A08D /* contain_bg_200@2x.png in Resources */,
+				FE9AC0B4190F4AB5004E8304 /* index_top_left@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,19 +583,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A134BDF1915E02F00226086 /* BIDShoppingCartTableViewCell.m in Sources */,
+				3A0B9EE7190CBAE900E91691 /* BIDChangePhoneNumberViewController.m in Sources */,
 				FEE93AF519079F100064E837 /* BIDMyShopTableViewController.m in Sources */,
+				3A7E93F0190E83CA0025866B /* EGORefreshTableHeaderView.m in Sources */,
+				FE34084E190E3AF6005785D9 /* BIDUILabelStrikeThrough.m in Sources */,
+				FE3DE2A4190FC1F9008DB5CB /* BIDSearchResultTableViewCell.m in Sources */,
+				FE627876190DD81700E8F0C3 /* BIDPersonalRecListTableViewController.m in Sources */,
+				3A31D11C190CA54100D6D147 /* BIDChangePasswordViewController.m in Sources */,
+				3A3DA7B2190EB1970049455A /* BIDRateProductViewController.m in Sources */,
+				3A0B9EEA190CBE3C00E91691 /* BIDChangeEmailViewController.m in Sources */,
+				3A31D11F190CB15000D6D147 /* BIDChangeNickNameViewController.m in Sources */,
+				FEDF693B191775E2000D947C /* BIDRateListTableViewCell.m in Sources */,
 				FE76343018FFCACB00700063 /* BIDShoppingCartViewController.m in Sources */,
+				FE3DE2A1190FC1D8008DB5CB /* BIDSearchResultTableViewController.m in Sources */,
+				FEDF69411917861D000D947C /* BIDOrderListDetailViewController.m in Sources */,
+				3A7E93F2190E83CA0025866B /* MessageInterceptor.m in Sources */,
+				3AC138E9190B5FFA001869D1 /* BIDGetPasswordViewController.m in Sources */,
 				FEAB2CBC1909065600200763 /* BIDCheckIDViewController.m in Sources */,
+				FE3408C4190E5105005785D9 /* BIDProductDetailViewController.m in Sources */,
+				3A0BBBF4190D411800ECEFA6 /* BIDPersonalRecTableViewCell.m in Sources */,
+				3A134BDC1915D67C00226086 /* BIDShoppingCartTableViewController.m in Sources */,
+				3A7E93F3190E83CA0025866B /* PullTableView.m in Sources */,
 				FE303CEE190119FB00600D38 /* BIDLoginViewController.m in Sources */,
 				FE76342C18FFC85700700063 /* BIDSearchViewController.m in Sources */,
+				FE34084B190E2A97005785D9 /* BIDImageDownload.m in Sources */,
 				FEB395311906455100303855 /* BIDRegisterViewController.m in Sources */,
 				FE76340118FFC1DC00700063 /* BIDAppDelegate.m in Sources */,
 				FE76342718FFC64900700063 /* BIDIndexViewController.m in Sources */,
-				FE76340718FFC1DC00700063 /* BIDViewController.m in Sources */,
+				3A7E9404190E8BDB0025866B /* BIDAllListTableViewCell.m in Sources */,
 				FEAB2CBF1909080400200763 /* MBProgressHUD.m in Sources */,
+				3A7E93F1190E83CA0025866B /* LoadMoreTableFooterView.m in Sources */,
+				FEDF693819175DF9000D947C /* BIDPayTableViewController.m in Sources */,
+				FE3408C1190E4C75005785D9 /* BIDProduct.m in Sources */,
 				FE106C2F1908B79200F67E07 /* BIDMyAccountTableViewController.m in Sources */,
 				FEB3953C190656F200303855 /* BIDUsers.m in Sources */,
+				3A7E9401190E84DD0025866B /* BIDAllListTableViewController.m in Sources */,
 				FE7633FD18FFC1DC00700063 /* main.m in Sources */,
+				FEDF693E19177859000D947C /* BIDAllRateListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
